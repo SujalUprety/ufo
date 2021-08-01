@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"bullet","path":"sprites/bullet/bullet.yy",},"order":4,},
+    {"id":{"name":"wall","path":"sprites/wall/wall.yy",},"order":1,},
+    {"id":{"name":"asteroid","path":"sprites/asteroid/asteroid.yy",},"order":3,},
+    {"id":{"name":"UFO","path":"sprites/UFO/UFO.yy",},"order":0,},
+    {"id":{"name":"spawner","path":"sprites/spawner/spawner.yy",},"order":2,},
+    {"id":{"name":"SinglePlayer","path":"rooms/SinglePlayer/SinglePlayer.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -15,7 +20,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"SinglePlayer","path":"rooms/SinglePlayer/SinglePlayer.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
