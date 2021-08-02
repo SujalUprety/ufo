@@ -3,6 +3,7 @@
     {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},"order":4,},
     {"id":{"name":"bullet","path":"sprites/bullet/bullet.yy",},"order":4,},
     {"id":{"name":"oUFO","path":"objects/oUFO/oUFO.yy",},"order":0,},
+    {"id":{"name":"Score","path":"fonts/Score/Score.yy",},"order":0,},
     {"id":{"name":"wall","path":"sprites/wall/wall.yy",},"order":1,},
     {"id":{"name":"asteroid","path":"sprites/asteroid/asteroid.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
