@@ -4,3 +4,4 @@ firingdelay = 0;
 global.scorecount = 0;
 totalbullets = 15;
 bullets = 15;
+reloaddelay = 0;

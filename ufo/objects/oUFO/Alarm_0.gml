@@ -1,1 +1,0 @@
-bullets = totalbullets;

@@ -15,16 +15,18 @@ if(place_meeting(x,y+vsp,oWall)) {
 y += vsp;
 
 firingdelay--;
-if(keyboard_check_pressed(ord("F")) && firingdelay < 0) {
+if(keyboard_check_pressed(ord("F")) && firingdelay < 0 && bullets > 0) {
 	firingdelay = 5;
 	with(instance_create_layer(x+65,y+40, "Bullets", oBullet)) {
 		speed = 15;
 		direction = other.image_angle;
 		image_angle = direction;
 	}
-	totalbullets--;
+	bullets--;
+	reloaddelay = 300;
 }
 
-if(totalbullets == 0 ) {
-	//alarm[0] = 60;
+reloaddelay--;
+if(bullets == 0 && reloaddelay < 0) {
+	bullets = totalbullets;
 }
