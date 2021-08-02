@@ -1,4 +1,3 @@
-
 if(place_meeting(x,y,oAsteroids)) {
 	with (oAsteroids) {
 		if(place_meeting(x,y,oBullet)) {
@@ -6,4 +5,8 @@ if(place_meeting(x,y,oAsteroids)) {
 		}
 	}
 	instance_destroy();
+}
+
+if (place_meeting(x,y,oSpawner)) {
+	instance_destroy();	
 }
